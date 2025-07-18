@@ -224,7 +224,7 @@ out.swms2_2 = SY_SlidingWindow(y_d,'mean','std',2,2) / SY_SlidingWindow(y,'mean'
 out.swms5_1 = SY_SlidingWindow(y_d,'mean','std',5,1) / SY_SlidingWindow(y,'mean','std',5,1);
 out.swms5_2 = SY_SlidingWindow(y_d,'mean','std',5,2) / SY_SlidingWindow(y,'mean','std',5,2);
 out.swms10_1 = SY_SlidingWindow(y_d,'mean','std',10,1) / SY_SlidingWindow(y,'mean','std',10,1);
-out.swms10_1 = SY_SlidingWindow(y_d,'mean','std',10,2) / SY_SlidingWindow(y,'mean','std',10,2);
+out.swms10_2 = SY_SlidingWindow(y_d,'mean','std',10,2) / SY_SlidingWindow(y,'mean','std',10,2);
 
 % (c) Sliding window std
 out.swss2_1 = SY_SlidingWindow(y_d,'std','std',2,1) / SY_SlidingWindow(y,'std','std',2,1);
